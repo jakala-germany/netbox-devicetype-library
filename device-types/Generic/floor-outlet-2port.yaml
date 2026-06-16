@@ -1,0 +1,29 @@
+---
+manufacturer: Generic
+model: Floor Outlet 2-Port RJ45
+slug: generic-floor-outlet-2port-rj45
+u_height: 0
+is_full_depth: false
+airflow: passive
+is_powered: false
+comments: "2-Port Floor Outlet with 2x RJ45 (8P8C) front ports and 2x structured cabling rear ports"
+
+front-ports:
+  - name: Port 1
+    type: 8p8c
+    rear_port: Structured Cabling 1
+    label: "Outlet 1"
+  - name: Port 2
+    type: 8p8c
+    rear_port: Structured Cabling 2
+    label: "Outlet 2"
+
+rear-ports:
+  - name: Structured Cabling 1
+    type: 8p8c
+    positions: 1
+    label: "Structured Cabling Port 1"
+  - name: Structured Cabling 2
+    type: 8p8c
+    positions: 1
+    label: "Structured Cabling Port 2"
