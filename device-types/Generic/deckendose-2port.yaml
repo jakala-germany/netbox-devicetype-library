@@ -1,0 +1,29 @@
+---
+manufacturer: Generic
+model: Deckendose 2-Port RJ45
+slug: generic-deckendose-2port-rj45
+u_height: 0
+is_full_depth: false
+airflow: passive
+is_powered: false
+comments: "2-Port Deckendose mit 2x RJ45 (8P8C) Frontports und 2x Hausverkabelung Rearports. Typisch für Access Points oder abgehängte Decken."
+
+front-ports:
+  - name: Port 1
+    type: 8p8c
+    rear_port: Hausverkabelung 1
+    label: "Dose 1"
+  - name: Port 2
+    type: 8p8c
+    rear_port: Hausverkabelung 2
+    label: "Dose 2"
+
+rear-ports:
+  - name: Hausverkabelung 1
+    type: 8p8c
+    positions: 1
+    label: "Hausverkabelung Port 1"
+  - name: Hausverkabelung 2
+    type: 8p8c
+    positions: 1
+    label: "Hausverkabelung Port 2"
